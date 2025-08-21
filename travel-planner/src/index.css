@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #87CEEB; /* This is the hex code for skyblue */
+  min-height: 100vh;
+}
