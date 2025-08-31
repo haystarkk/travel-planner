@@ -1,0 +1,11 @@
+export default function SimpleMap({ cityName }) {
+  return (
+    <div className="bg-gray-100 rounded-lg p-4 text-center">
+      <div className="text-4xl mb-2">🗺️</div>
+      <p className="text-gray-600">Map of {cityName}</p>
+      <p className="text-sm text-gray-500 mt-2">
+        Interactive map integration coming soon!
+      </p>
+    </div>
+  );
+}
